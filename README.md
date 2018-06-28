@@ -14,7 +14,7 @@ There is a file named ```pokey``` in the ```bin``` directory. Use it like this:
 
 This library exposes one method, ```search```, which takes one argument, a
 string to search for. It returns an array with 0 or more results. Each result
-is a hash with four keys:
+is an object with four keys:
 
 * ```title```: The title of the matching Pokey strip
 * ```link```: The URL to the strip
