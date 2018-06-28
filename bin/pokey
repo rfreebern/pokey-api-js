@@ -1,0 +1,5 @@
+#!/bin/bash
+
+NODE=`which node`
+
+$NODE -e "require('./src/pokey')('$1').then(function (results) { console.log(results[0].text); })"
