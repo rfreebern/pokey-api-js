@@ -12,7 +12,7 @@ There is a file named ```pokey``` in the ```bin``` directory. Use it like this:
 
 ## The API
 
-This library exposes one method, ```search```, which takes one argument, a
+This library exposes one object, ```Pokey```, which takes one argument, a
 string to search for. It returns an array with 0 or more results. Each result
 is an object with four keys:
 
